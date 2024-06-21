@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMBIANCE DE TRVAIL</title>
+    <link rel="stylesheet" href="../style.css">
+
+</head>
+<body>
+    <div class="nav-container">
+        <div class="uppernav">
+            <div class="uppernav_holder">
+                <div class="left">
+                    <p>CONTROLE EXPERTISE</p>
+                </div>
+                <div class="right">
+                    <div class="cercle"></div>
+                    <p  class="uppernumber">+212 668 979 744</p>
+                    <div class="cercle"></div>
+                    <a class="upperbutton" href="tel:+212668979744">Appelez-Nous</a>
+                </div>
+            </div>
+    
+        </div>
+    
+        <div class="navbar">
+            <div class="logo">
+              <a  ><img src="../assets/img/logo.svg" alt=""></a>
+            </div>
+            <ul class="nav-ul" id="list">
+                <li>
+                    <a href="../index.html#home" class="special">ACCUEIL</a>
+                </li>
+                <li>
+                    <a  href="../index.html#about" class="special" >NOTRE ENTREPRISE</a>
+                </li>
+                <li>
+                  <a href="../index.html#controle" class="special" >NOS SERVICES</a>
+                </li>
+                <li>
+                    <a href="../index.html#download_banner" class="special" >NOS DOCUMENTS</a>
+                </li>
+                <li>
+                    <a href="../index.html#contact" class="special" >CONTACT</a>
+                </li>     
+                <li class="hidden">
+                    <p  class="uppernumber">+212 668 979 744</p>
+                </li>    
+                <li class="hidden">
+                    <a class="upperbutton" href="tel:+212668979744">Appelez-Nous</a>
+                </li>     
+            </ul>
+        
+            <div class="burger" id="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+          </div>
+    </div>
+    
+    <div class="blog-container">
+        
+        <div class="blog-banner">
+            <h1>Evaluation de conformité <br>
+                AMBIANCE DE TRVAIL</h1>
+            <img src="../assets/banner/ambbanner.png" alt="">
+        </div>
+
+        <div class="row">
+            <div class="text-container">
+                <p>CE 4.0 propose plus largement une offre complète dans le domaine des ambiances de travail, la santé et la sécurité avec des prestations portant sur :</p>
+            <ul>
+                <p>•	Mesurage des niveaux sonores aux postes de travail</p>
+                <p>•	Mesurage des vibrations aux postes de travail</p>
+                <p>•	Mesure des niveaux d’éclairement</p>
+                <p>     •	Examens des installations d'aération des locaux à pollution non spécifique </p>
+                <p> 	•	Examens des installations d'aération des locaux à pollution spécifique </p>
+                <p> 	•	Mesure et contrôle de la température</p>
+                <p>•	Qualité de l’air et surveillance du niveau d'empoussièrement dans l'atmosphère</p>
+                <p>     •	Vérification des alimentations de secours des signalisations de sécurité qui ont besoin d'une source d'énergie pour fonctionner sur les lieux de travail</p>
+
+            </ul>
+            </div>
+            
+            <img src="../assets/img/amb1.jpg" alt="">
+        </div>
+        <div class="row reverse">
+            <div class="text-container">
+                <p>Nous procédons à réaliser des  formations, audits, Mesures et tests afin de vérifier la conformité aux normes réglementaires et aux exigences spécifiques des clients: </p>
+                <ul>
+                    <p>•	Risques liés à l'exposition au bruit, et aux vibrations dans  l’environnement intérieur;</p>
+                    <p>•	Moyens et dispositifs de signalisation de sécurité ;</p>
+                    <p>•	Conseil technique pour la réduction des risques d’accidents et d’exposition à des matériaux dangereux;</p>
+                    <p>•	Veille réglementaire;</p>
+                    <p>•	Atmosphère explosive (ATEX) : zonage, audit d'adéquation, DRPE;</p>
+                    <p>•	Prévention Conseil Incendie (PCI);</p>
+                    <p>•	Installations électriques.</p>
+    
+                </ul>
+                </div>
+
+            <img src="../assets/img/amb2.jpg" alt="">
+        </div>
+        <section id="contact">
+            <div class="contact">
+                <div class="left">
+                    <img src="../assets/img/logo.svg" alt="">
+                    <div class="blue_divider"></div>
+                    <div class="contact_info">
+                        <h1>Contact</h1>
+                        <p>+212 668 979 744</p>
+                        <p>+212 663 086 204</p>
+                        <p>CONTACT.CE4.O@gmail.com</p>
+                        <p>WWW.CONTROLE-EXPERTISE.MA</p>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="form">
+                        <form id="contact_form" action="/submit" method="post">
+                            <!-- <label for="senderName">Nom et Prénom :</label> -->
+                            <input type="text" placeholder="Nom de l'expéditeur" id="name" name="name" required>
+                            
+                            <!-- <label for="Email">Email :</label> -->
+                            <input type="text" placeholder="Email de l'expéditeur" id="email" name="email" required>
+        
+                            <!-- <label for="numero">Numéro De Téléphone :</label> -->
+                            <input type="number" placeholder="numero" id="numero" name="numero" required>
+                            
+                            <!-- <label for="subject">Sujet :</label> -->
+                            <input type="text"placeholder="Sujet" id="subject" name="subject" required>
+                    
+                            <!-- <label for="content">Message :</label> -->
+                            <textarea id="message"  placeholder="Message" name="message" rows="4" required></textarea>
+                    
+                            <button id="submit_btn" type="submit">Envoyer</button>
+                        </form>
+            
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+<script src="../script.js"></script>
+    
+</body>
+</html>
